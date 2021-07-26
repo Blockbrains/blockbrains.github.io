@@ -1,0 +1,156 @@
+.columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+    position: relative;
+    top: -50px;
+}
+
+.column {
+    flex: 1;
+    /*border: 1px solid gray;*/
+    margin: 2px;
+    padding: 10px;
+}
+
+.contact-wrap {
+    width: 100%;
+    margin: auto;
+    min-height: 970px;
+    position: relative;
+    background: url(/assets/5.png) no-repeat center;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+}
+
+.contact-html {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 90px 70px 50px 70px;
+    background: rgba(9, 15, 31, 0.94);
+}
+
+.centerlittletitle {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fce678;
+    font-size: 25px;
+    letter-spacing: 0.5em;
+}
+
+.centerbigtitle {
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.normaltitle1 {
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.normaltitle2 {
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    margin-bottom: 38px;
+    margin-left: 50px;
+}
+
+.smallertitle {
+    color: #fce678;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+
+.parag {
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+.group {
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+.group .input,
+.group .button {
+    color: rgb(145, 145, 145);
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, .1);
+    width: 80%;
+}
+
+.group .input:focus {
+    color: #fff;
+}
+
+.up {
+    --color: #fce678;
+    --hover: #fce678;
+}
+
+.up:hover,
+.up:focus {
+    box-shadow: inset 0 -3.25em 0 0 var(--hover);
+    color: black;
+}
+
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    color: var(--color);
+    transition: 0.25s;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 868px) {
+    .group .input {
+        width: 100%;
+    }
+    .normaltitle1 {
+        margin-left: 0px;
+    }
+    .normaltitle2 {
+        margin-left: 0px;
+    }
+    .smallertitle {
+        margin-left: 0px;
+    }
+    .parag {
+        margin-left: 0px;
+    }
+    .group {
+        margin-left: 0px;
+    }
+    .column {
+        margin-bottom: 30px;
+    }
+    .columns {
+        top: -124px;
+    }
+}
+
+button:hover {
+    border-color: var(--hover);
+    color: #fff;
+}

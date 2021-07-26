@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockBrains</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/about.css" />
+
+    <link rel="stylesheet" href="css/services.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+
+
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="content">
+            <div class="logo"><a id="#top">BlockBrains</a></div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                </div>
+                <li><a id="#top" onclick="closemenu()">Home</a></li>
+                <li><a href="#about" onclick="closemenu()">About</a></li>
+                <li><a href="#services" onclick="closemenu()">Services</a></li>
+                <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+            </ul>
+
+            <div class="menu-btnn">
+                <div class="menu-btnn__burger">
+                    <div class="icon menu-btn"></div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <div id="intro" class="intro">
+        <h1 class="title">Blockbrains <br/> is very cool
+        </h1>
+        <video src="assets/final 2.mp4"></video>
+        <div class="s-intro__scroll">
+            <p class="scroll-text">Scroll For More</p>
+            <a class="smoothscroll">
+                <div class="mouse"></div>
+            </a>
+            <div class="end-top"></div>
+        </div>
+
+        <a href="#about">
+            <div class="skip">
+                <i class="fa fa-arrow-down"></i>
+            </div>
+        </a>
+    </div>
+
+
+
+    <section id="about" class="about" data-color="#1a0462">
+        <h2>Hello there</h2>
+        <h1>We are BlockBrains.</h1>
+        <div class="aboutcolumns">
+            <div class="aboutcolumn1">
+                <p>We help with a smooth transformation journey, mitigates risks and justifies the investment into innovation letting you implement the right infrastructure and needed softwares to achieve your goals.</p>
+            </div>
+
+            <div class="aboutcolumn2">
+                <div id="bm" class="columnimage"> </div>
+            </div>
+
+        </div>
+        <!--
+        <p>We help with a smooth transformation journey, mitigates risks and justifies the investment into innovation letting you implement the right infrastructure and needed softwares to achieve your goals.</p>
+    -->
+    </section>
+
+    <section id="services" class="services" data-color="#ffffff">
+        <h1>Services</h1>
+        <div class="page-content">
+
+            <div class="card">
+                <div class="contents">
+                    <h2 class="titles">Digital Consulting</h2>
+                    <p class="copy">We help with a smooth transformation journey, mitigates risks and justifies the investment into innovation letting you implement the right infrastructure and needed softwares to achieve your goals.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contents">
+                    <h2 class="titles">Leanios Integrator</h2>
+                    <p class="copy">Digitalize your workflow in your company with a lean cloud based management platform to boost your productivity and be part of the Industry 4.0 .</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contents">
+                    <h2 class="titles">Api Integrations</h2>
+                    <p class="copy">Our expert can assit and integrat any required apis.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="contents">
+                    <h2 class="titles">Website Creator</h2>
+                    <p class="copy">Do you need a portfolio/showcase/blog or an e-commerce website we can do this for you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+
+
+        <div class="contact-wrap">
+            <div class="contact-html">
+                <h2 class="centerlittletitle">Contact</h2>
+                <h1 class="centerbigtitle">Get In Touch.</h1>
+                <div class="columns">
+                    <div class="column">
+                        <h2 class="normaltitle1">Send us a message.</h2>
+                        <div class="group">
+                            <input id="user" type="email" class="input" placeholder="Email *">
+                        </div>
+                        <div class="group">
+                            <textarea class="input" placeholder="Your Message *" id="pass" required="" data-validation-required-message="Please enter a message." rows="7" cols="50" style="resize: none;"></textarea>
+                        </div>
+                        <div class="group">
+                            <button type="submit" class="up">Submit</button>
+                        </div>
+
+
+                    </div>
+
+                    <div class="column">
+                        <h2 class="normaltitle2">Contact Information.</h2>
+                        <h2 class="smallertitle">Where to find us.</h2>
+                        <p class="parag"> Munich, Germany</p>
+                        <h2 class="smallertitle">Email us at.</h2>
+                        <p class="parag"> BlockBrains@gmail.com</p>
+                        <h2 class="smallertitle">Call us at.</h2>
+                        <p class="parag"> (+614)12345678</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <a id="#top">
+        <div class="go-to-top">
+            <i class="fa fa-arrow-up"></i>
+        </div>
+    </a>
+
+
+    <div class="splash">
+        <div class="splash-text">
+            <h1 class="hide">
+                <span class="text">Something cool</span>
+            </h1>
+            <h1 class="hide">
+                <span class="text">written here for</span>
+            </h1>
+            <h1 class="hide">
+                <span class="text">Blockbrains.</span>
+            </h1>
+        </div>
+    </div>
+    <div class="slider"></div>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js" integrity="sha512-judXDFLnOTJsUwd55lhbrX3uSoSQSOZR6vNrsll+4ViUFv+XOIr/xaIK96soMj6s5jVszd7I97a0H+WhgFwTEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js" integrity="sha512-jbTBHn1aXqglu6As1bUWxdPYc9b1uMHtreBM30oW3HbNFDS/eO1n+f98l4qcmw2l7CAdjWSbu3wVjm9SKISOaw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.js" integrity="sha512-mq6TSOBEH8eoYFBvyDQOQf63xgTeAk7ps+MHGLWZ6Byz0BqQzrP+3GIgYL+KvLaWgpL8XgDVbIRYQeLa3Vqu6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/app.js"></script>
+    <script src="js/splash.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/about.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/pls.json"></script>
+
+
+</body>
+
+</html>
