@@ -1,0 +1,126 @@
+.about {
+    padding-top: 10.2rem;
+    padding-bottom: 9rem;
+    position: relative;
+    /*background-color: #1a0462;
+    background: linear-gradient(#1a0462, #ffffff);*/
+}
+
+.about h1 {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4vw;
+}
+
+.about h2 {
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fce678;
+    font-size: 2vw;
+    letter-spacing: 0.5em;
+}
+
+.about p {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 1.8vw;
+    text-align: left;
+    line-height: 2.0;
+}
+
+@media (max-width: 868px) {
+    .about h1 {
+        position: absolute;
+        top: 36%;
+        left: 35%;
+        transform: translate(-24%, -50%);
+        color: white;
+        font-size: 6vw;
+    }
+    .about h2 {
+        position: absolute;
+        top: 12%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fce678;
+        ;
+        font-size: 3vw;
+        letter-spacing: 0.5em;
+    }
+}
+
+.about .aboutcolumns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+    position: relative;
+    top: 100px;
+}
+
+.about .aboutcolumn1 {
+    flex: 1;
+    /*border: 1px solid gray;*/
+    margin: 2px;
+    margin-left: 100px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.about .aboutcolumn2 {
+    flex: 1;
+    /*border: 1px solid gray;*/
+    margin: 2px;
+    margin-right: 100px;
+    margin-left: 50px;
+    padding: 10px;
+    width: auto;
+}
+
+.columnimage {
+    transform: scale(1.4);
+}
+
+@media (max-width: 600px) {
+    .about .aboutcolumn2 {
+        margin-top: 20px;
+        margin-right: 100px;
+        margin-left: 50px;
+    }
+    .about .aboutcolumns {
+        top: 10px;
+    }
+    .about p {
+        font-size: 20px;
+        text-align: left;
+        line-height: 1.0;
+    }
+    .columnimage {
+        width: 500px;
+    }
+}
+
+@media (max-width: 980px) and (min-width:600px) {
+    .about .aboutcolumn2 {
+        margin-top: 20px;
+        margin-right: 100px;
+        margin-left: 50px;
+    }
+    .about .aboutcolumns {
+        top: 10px;
+    }
+    .about p {
+        font-size: 20px;
+        text-align: left;
+        line-height: 1.0;
+    }
+    .columnimage {
+        width: 500px;
+        margin-left: 100px;
+    }
+}
